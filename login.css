@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Font Importing */
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+  
+  /* Root Variables */
+  :root {
+    --orange: #f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--gray);
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: var(--blue);
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: var(--blue);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00285f;
+  }
+  
+  .white-button {
+    background-color: white;
+    color: var(--blue); /* Cor do texto do botão (pode ser ajustada) */
+    border: 1px solid var(--blue); /* Cor da borda do botão (pode ser ajustada) */
+    padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
+    border-radius: 5px; /* Ajuste o raio da borda conforme necessário */
+    text-decoration: none; /* Remover sublinhado padrão do link */
+  }
+  
+  /* Estilize o botão em estado hover (quando o mouse está sobre ele) se desejar */
+  .white-button:hover {
+    background-color: var(--blue); /* Cor de fundo ao passar o mouse (pode ser ajustada) */
+    color: white; /* Cor do texto ao passar o mouse (pode ser ajustada) */
+  }
+  
+  
